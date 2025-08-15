@@ -1,0 +1,15 @@
+telegram:
+  proxy: ""  # مثال: http://proxy:port
+  admin_ids:
+    - 123456789  # user ID ادمین
+database:
+  path: "cache/v2ray.db"
+cache:
+  ttl: 3600  # مدت زمان کش منطقه (ثانیه)
+api:
+  region_api: "https://ipapi.co/{ip}/json/"
+limits:
+  max_configs_per_region: 50  # حداکثر لینک برای هر منطقه
+schedule:
+  update_interval: 86400  # جمع‌آوری هر 24 ساعت (ثانیه)
+  cleanup_interval: 48  # حذف لینک‌های قدیمی‌تر از 48 ساعت
